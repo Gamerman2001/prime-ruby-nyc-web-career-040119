@@ -21,7 +21,6 @@ def prime?(int)
   else 
     (2...int).to_a.all? do |findprime|
       int % findprime == !0
-        return true
     end 
   end 
 end 
