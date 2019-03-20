@@ -32,4 +32,3 @@ if num < 0 or num == 0 or num == 1
       num % possible_factor != 0
     end
   end
-end
