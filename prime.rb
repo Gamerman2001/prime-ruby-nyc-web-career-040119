@@ -20,7 +20,8 @@ def prime?(int)
     false
   else 
     (2...int).all? do |findprime|
-      int % findprime == 0      
+      int % findprime == !0
+        return true
     end 
   end 
 end 
