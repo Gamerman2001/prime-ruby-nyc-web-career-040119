@@ -30,5 +30,7 @@ def prime?(int)
 end 
 
 def prime?(int)
-  if int 0 0 && int 
+  if int < 0 || int == 1 || int == 0 
+    false
+  end 
 end 
