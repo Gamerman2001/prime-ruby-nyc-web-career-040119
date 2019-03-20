@@ -21,10 +21,9 @@ def prime?(int)
   elsif 
     (2...int).each do |findprime|
       int % findprime == 0
-        return false
-      else 
-        return true
+         false
     end 
+        true
   end 
 end 
 # def prime?(num)
