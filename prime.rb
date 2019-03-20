@@ -24,7 +24,7 @@
 #     end 
 #   end 
 # end 
-
+def prime?(num)
 if num < 0 or num == 0 or num == 1
     return false
   else
@@ -32,3 +32,4 @@ if num < 0 or num == 0 or num == 1
       num % possible_factor != 0
     end
   end
+end
