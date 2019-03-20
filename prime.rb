@@ -34,7 +34,7 @@ def prime?(int)
     false
   else 
     (2..int-1).all? do |findprime|
-            
+      int % findprime == 0      
     end 
   end 
 end 
