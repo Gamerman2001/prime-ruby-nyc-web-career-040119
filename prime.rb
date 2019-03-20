@@ -13,21 +13,7 @@
 #   end 
 # end 
 
-def prime?(int)
-  # prime_factors = [2, 3, 5, 7, 11, 13, 17]
-  if int  > 1 && int == 2
-     return true 
-   else 
-  for i in (2..int)
-    if int % i == 0 
-    return false
-  else
-    return true
-    end
-  end 
-  end
-  false
-end 
+
 
 def prime?(int)
   if int < 0 || int == 1 || int == 0 
